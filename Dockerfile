@@ -25,7 +25,8 @@ RUN \
  apt-get -y --no-install-recommends install ca-certificates git php7.0-mysqlnd php7.0-cli php7.0-sqlite php7.0-mcrypt php7.0-mbstring php7.0-zip php7.0-curl php7.0-intl php7.0-gettext php7.0-gd php7.0-imagick php7.0-xdebug php7.0-xml imagemagick openssh-client curl software-properties-common gettext zip mysql-server mysql-client apt-transport-https ruby python python3 perl &&\
  curl -sL https://deb.nodesource.com/setup_4.x | bash - &&\
  apt-get -y --no-install-recommends install nodejs &&\
- apt-get autoclean && apt-get clean && apt-get autoremove
+ apt-get autoclean && apt-get clean && apt-get autoremove &&\
+ composer global require "fxp/composer-asset-plugin:^1.2.0"
 
 RUN \
  sed -ri -e "s/^variables_order.*/variables_order = \"EGPCS\"/g" /etc/php/7.0/cli/php.ini
