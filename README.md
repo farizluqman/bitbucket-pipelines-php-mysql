@@ -6,7 +6,7 @@
 
 More help in Bitbucket's [Confluence](https://confluence.atlassian.com/bitbucket/bitbucket-pipelines-beta-792496469.html)
 
-Docker image at [lan143/bitbucket-pipelines-php-mysql](https://hub.docker.com/r/lan143/bitbucket-pipelines-php-mysql/) (no `CMD` as it is overriden by *Pipelines*)
+Docker image at [farizluqman/docker-lamp7/](https://hub.docker.com/r/farizluqman/docker-lamp7/) (no `CMD` as it is overriden by *Pipelines*)
 
 ## Packages installed
 
