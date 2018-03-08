@@ -7,7 +7,7 @@ ENV LANGUAGE en_US:en
 
 RUN \
  apt-get update &&\
- apt-get -y install wget zip unzip
+ apt-get -y install wget zip unzip htop
 
 RUN \
  echo "deb http://packages.dotdeb.org jessie all" >> /etc/apt/sources.list.d/dotdeb.list &&\
