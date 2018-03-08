@@ -1,4 +1,4 @@
-[![](https://images.microbadger.com/badges/image/lan143/bitbucket-pipelines-php-mysql.svg)](http://microbadger.com/images/lan143/bitbucket-pipelines-php-mysql "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/farizluqman/docker-lamp7.svg)](http://microbadger.com/images/lan143/bitbucket-pipelines-php-mysql "Get your own image badge on microbadger.com")
 
 # bitbucket-pipelines-php-mysql
 
