@@ -1,6 +1,6 @@
 [![](https://images.microbadger.com/badges/image/farizluqman/docker-lamp7.svg)](http://microbadger.com/images/farizluqman/docker-lamp7 "Get your own image badge on microbadger.com")
 
-# bitbucket-pipelines-php-mysql
+# docker-lamp7
 
 [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines) [Docker](https://www.docker.com/) image based on [Debian/Jessie](https://www.debian.org/releases/jessie/) with [PHP](http://php.net/)/[MySQL](https://www.mysql.com) (and more !)
 
